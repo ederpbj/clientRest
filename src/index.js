@@ -19,8 +19,10 @@ export default class App extends Component {
   signIn = async () => {
     try {
       const response = await api.post('/auth/authenticate', {
-        email: 'ederpbj@gmail.com',
-        password: '123456',
+        email: 'diego@rocketseat.com.br',
+        password: '1234567777',
+        /* email: 'ederpbj@gmail.com',
+        password: '123456', */
       });
 
       console.log(response);
